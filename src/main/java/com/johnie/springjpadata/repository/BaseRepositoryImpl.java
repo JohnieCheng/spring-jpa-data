@@ -23,6 +23,7 @@ public class BaseRepositoryImpl<T, ID extends Serializable> extends SimpleJpaRep
 
     @Override
     public void sharedCustomMethodA(ID id) {
+
         System.out.println(this.entityManager);
     }
 }

@@ -10,6 +10,9 @@ public interface UserService {
     User update(User user);
 
     User getById(Long id);
+    User getByUsername(String username);
+    User getByUsername2(String username);
+    User getByUsername3(String username);
 
     List<User> getHistoryById(Long id);
 }
